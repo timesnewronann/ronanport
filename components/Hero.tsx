@@ -27,7 +27,7 @@ export default function Hero({pageInfo}: Props) {
     return (
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
         <BackgroundCircles/>
-        <img className='relative rounded-full h-32 w-32 mx-auto object-cover ' src= {"Ronan.jpg" }alt ="" />
+        <img className='relative rounded-full h-32 w-32 mx-auto object-cover ' src= {"https://cdn.sanity.io/images/krx2c3wp/production/349ba7f097eb1e92896331659d97fbcdfa3cb4d4-2432x3637.jpg" }alt ="" />
         
         <div >
             <h2 className='texts-sm uppercase text-gray-300 pb-2 tracking-[15px]'>

@@ -19,7 +19,7 @@ export default function About({pageInfo}:Props){
          transition= {{
             duration: 1.5,
          }}
-         className = "flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-center mx-auto items-center" > 
+         className = "flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center" > 
         <h3 className ="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">About </h3>
         
         <motion.img
@@ -38,7 +38,7 @@ export default function About({pageInfo}:Props){
             viewport= {{
                 once:true
             }}
-            src = "https://lh5.googleusercontent.com/TZyBscKaxvexo6XpuawZurjicQKGQ1QFJbuFnrbA6i1HcAqGySLvHPrn9DMtZaFPhEJDDF2MkFbA-WiCD6UW94hmVllr-Y75oYwNbUi60qqiw60y8FhsMWPkq0HWcmMEY8a7L5UiCz2kHCnomd1EluMEd7Y1-RUjH8AI8iCet_1gKNoHYfGBfbusMFUK8sNQ=w1280"
+            src = "https://cdn.sanity.io/images/krx2c3wp/production/9e21200a46f46988c17b567fda4666405b1157f8-1228x1818.jpg"
             className= "mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[800px]"
 
         />
